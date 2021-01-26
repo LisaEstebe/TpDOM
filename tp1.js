@@ -71,4 +71,12 @@ function couleurAleatoire() {
 for (let i = 6; i < 11; i++) {
   nouvelleCarte(i);
 }
-j1.removeChild();
+
+function deplacerCarte() {
+  let carte1 = document.getElementById("j1").firstElementChild;
+  document.getElementById("j1").appendChild(carte1);
+}
+
+function supprimerCarte() {
+  document.getElementById("j1").removeChild;
+}
